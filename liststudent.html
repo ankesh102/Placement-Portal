@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin | liststudent</title>
+    <link rel="stylesheet" href="css/liststudent.css">
+    <!-- <script src="liststudent.js"></script> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="index.html" class="logo">
+                            <h3 style="color: rgba(0, 0, 0, 0.555);">Andragogy University</h3>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="placementoff.html" class="active">Home</a></li>
+                            <li><a href="P_drives.html">Drives</a></li>
+                            <li><a href="liststudent.html">Registered Students</a></li>
+                            <li><a href="register.html" target="_blank">Register</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="containerbody">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+        <table class="student" id="myTable">
+            <tr>
+                <th>Registration no</th>
+                <th>Name</th>
+                <th>Phone number</th>
+                <th>Stream</th>
+                <th>Company</th>
+                <th>Job profile</th>
+                <th>Backlog</th>
+                <th>Overall CGPA</th>
+                <th>Block/Unblock</th>
+
+            </tr>
+            <tr>
+                <td>12013498</td>
+                <td>Ishaan Walmart</td>
+                <td>8904567860</td>
+                <td>B.tech</td>
+                <td>Microsoft</td>
+                <td>WEb Developer</td>
+                <td>No</td>
+                <td>8.9</td>
+                <td><input type="button" class="blk-unblk"  id="mybut1" name=""  value="unblock" onclick="change1()"></button> </td>
+            </tr>
+            
+            <tr>
+                <td>12013498</td>
+                <td>Ankesh Kumar Pandey</td>
+                <td>8904567860</td>
+                <td>B.tech</td>
+                <td>Cognizant</td>
+                <td>WEb Developer</td>
+                <td>No</td>
+                <td>8.9</td>
+                <td><input type="button" class="blk-unblk"  id="mybut2" name=""  value="unblock" onclick="change2()"></button> </td>
+            </tr>
+            
+            <tr>
+                <td>12013498</td>
+                <td>Ankita Kumari</td>
+                <td>8904567860</td>
+                <td>B.tech</td>
+                <td>Google</td>
+                <td>WEb Developer</td>
+                <td>No</td>
+                <td>8.9</td>
+                <td><input type="button" class="blk-unblk"  id="mybut3" name=""  value="unblock" onclick="change3()"></button> </td>
+            </tr>
+            
+            <tr>
+                <td>12013498</td>
+                <td>Sarvesh Kumar Pandey</td>
+                <td>8904567860</td>
+                <td>B.tech</td>
+                <td>Javac</td>
+                <td>WEb Developer</td>
+                <td>No</td>
+                <td>8.9</td>
+                <td><input type="button" class="blk-unblk"  id="mybut4" name=""  value="unblock" onclick="change4()"></button> </td>
+            </tr>
+            
+            <tr>
+                <td>12013498</td>
+                <td>Joseph Don</td>
+                <td>8904567860</td>
+                <td>B.tech</td>
+                <td>Jupiter</td>
+                <td>WEb Developer</td>
+                <td>No</td>
+                <td>8.9</td>
+                <td><input type="button" class="blk-unblk"  id="mybut5" name=""  value="unblock" onclick="change5()"></button> </td>
+            </tr>
+            <tr>
+                <td>12013498</td>
+                <td>Stephen jon</td>
+                <td>8904567860</td>
+                <td>B.tech</td>
+                <td>Jupiter</td>
+                <td>WEb Developer</td>
+                <td>No</td>
+                <td>8.9</td>
+                <td><input type="button" class="blk-unblk"  id="mybut6" name=""  value="unblock" onclick="change6()"></button> </td>
+            </tr>
+            <tr>
+                <td>12013498</td>
+                <td>William Jose</td>
+                <td>8904567860</td>
+                <td>B.tech</td>
+                <td>Jupiter</td>
+                <td>WEb Developer</td>
+                <td>No</td>
+                <td>8.9</td>
+                <td><input type="button" class="blk-unblk"  id="mybut7" name=""  value="unblock" onclick="change7()"></button> </td>
+            </tr>
+            
+
+
+        </table>
+
+    </div>
+    <!-- Js directory -->
+    <script src="liststudent.js"></script>
+     <!-- jQuery -->
+     <script src="assets/js/jquery-2.1.0.min.js"></script>
+     <!-- Plugins -->
+     <script src="assets/js/scrollreveal.min.js"></script>
+     <!-- Global Init -->
+     <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

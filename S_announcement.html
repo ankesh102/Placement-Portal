@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/liststudent.css">
+    <script src="liststudent.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <title>Student | Announcement</title>
+</head>
+
+<body>
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="main-nav">
+                        <!-- ***** Logo Start ***** -->
+                        <a href="home.html" class="logo">
+                            <h3 style="color: rgba(0, 0, 0, 0.555);">Andragogy University</h3>
+                        </a>
+                        <!-- ***** Logo End ***** -->
+                        <!-- ***** Menu Start ***** -->
+                        <ul class="nav">
+                            <li><a href="student_summary.html" class="active">Home</a></li>
+                            <li><a href="S_drives.html">Drives</a></li>
+                            <li><a href="register.html" target="_blank">Register</a></li>
+                            <li><a href="profile.html" target="_blank">View Profile</a></li>
+                        </ul>
+                        <a class='menu-trigger'>
+                            <span>Menu</span>
+                        </a>
+                        <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="containerbody">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Announcement">
+
+        <table class="student" id="myTable">
+            <tr>
+                <th>Date</th>
+                <th>Announcement</th>
+
+            </tr>
+            <tr>
+                <td>13-10-2022</td>
+                <td>You have Sucessfully Completed Placement Portal . </td>
+            </tr>
+            <tr>
+                <td>12-10-2022</td>
+                <td>A new drive is Available in your account.</td>
+            </tr>
+            <tr>
+                <td>10-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE EVENT of BROWSERSTACK. Date will be notified later.</td>
+            </tr>
+            <tr>
+                <td>09-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE EVENT of EPAM SYSTEM PVT LTD. Date will be notified later.</td>
+            </tr>
+            <tr>
+                <td>08-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE EVENT of EPAM SYSTEM PVT LTD. Date will be notified later. </td>
+            </tr>
+            <tr>
+                <td>07-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE EVENT of Microsoft. Date will be notified later. </td>
+            </tr>
+            <tr>
+                <td>06-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE EVENT of Google. Date will be notified later. </td>
+            </tr>
+            <tr>
+                <td>05-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE Cisco. Date will be notified later. </td>
+            </tr>
+            <tr>
+                <td>04-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE IBM. Date will be notified later. </td>
+            </tr>
+            <tr>
+                <td>03-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE Cisco pvt ltd. Date will be notified later. </td>
+            </tr>
+            <tr>
+                <td>02-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE LPU. Date will be notified later. </td>
+            </tr>
+            <tr>
+                <td>01-10-2022</td>
+                <td>Dear Student, you are eligible for COMPETETIVE Kartik Hacker EVENT. Date will be notified later. </td>
+            </tr>
+
+        </table>
+
+    </div>
+    <script>
+        function change() // no ';' here
+        {
+            var elem = document.getElementById("mybut1");
+            if (elem.value == "unblock") elem.value = "block";
+            else elem.value = "Unblock";
+        }
+    </script>
+     <!-- jQuery -->
+     <script src="assets/js/jquery-2.1.0.min.js"></script>
+     <!-- Plugins -->
+     <script src="assets/js/scrollreveal.min.js"></script>
+     <!-- Global Init -->
+     <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
